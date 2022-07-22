@@ -49,11 +49,7 @@ namespace IaExamApi.Controllers
 		}
 
 
-		[HttpPut]
-		public async Task<IActionResult> Update( [FromBody]OrderVM order)
-		{
-			return ResponseStatusCode(_orderService.Update(order));
-		}
+		 
 
 		[HttpPut("nextStep")]
 		public async Task<IActionResult> NextStatus(int id)
