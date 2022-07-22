@@ -1,7 +1,7 @@
 ﻿(function () {
     var app = angular.module('IAApp', ['ngRoute', 'toastr']); 
       
-    app.constant('API_URL', 'https://localhost:5001/api/'); 
+    app.constant('API_URL', 'https://localhost:44366/api/'); 
 
     app.config(function ( $routeProvider) {
 
